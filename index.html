@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        .header-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 24px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #0066cc;
+        }
+        /* 新增Linux标题样式，底部橙色线条 */
+        h1.linux-title {
+            border-bottom: 2px solid #ff7f00;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin: 30px 0 20px 0;
+            font-size: 22px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #28a745;
+        }
+        p {
+            margin: 15px 0;
+            font-size: 16px;
+            word-wrap: break-word;
+            color: #333;
+        }
+        a {
+            display: block;
+            margin-top: 5px;
+            padding: 12px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #0066cc;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background-color: #e8f4ff;
+            border-color: #0066cc;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        /* 桌面端样式 */
+        @media (min-width: 768px) {
+            body {
+                padding: 40px;
+                max-width: 800px;
+                margin: 0 auto;
+                background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            }
+            .header-image {
+                display: none; /* 桌面端隐藏图片 */
+            }
+            h1 {
+                font-size: 28px;
+                margin-bottom: 35px;
+                padding-bottom: 20px;
+            }
+            h2 {
+                font-size: 24px;
+                margin: 40px 0 25px 0;
+            }
+            p {
+                font-size: 18px;
+                margin: 20px 0;
+            }
+            a {
+                padding: 15px;
+                font-size: 16px;
+                border-radius: 10px;
+            }
+            .content-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+            .oem-section, .linux-section {
+                grid-column: 1 / -1;
+            }
+        }
+
+        /* 大屏幕桌面端样式 */
+        @media (min-width: 1200px) {
+            body {
+                max-width: 1000px;
+                padding: 50px;
+            }
+            .content-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-image">
+        <img src="bc6e5bc07795494bb9ae7bf86ec7209c.jpeg" alt="Header Image">
+    </div>
+    
+    <h1>原版系统</h1>
+    
+    <div class="content-grid">
+        <p>x86 windowsXP：<br>
+        <a href="https://www.123912.com/s/vAvbTd-bENgh">Windows XP Pro SP3 x86</a></p>
+        
+        <p>x64 windows7：<br>
+        <a href="https://www.123912.com/s/vAvbTd-XENgh">cn_windows_7_professional_x64_dvd_x15-65791</a></p>
+        
+        <p>x64 windows8：<br>
+        <a href="https://www.123912.com/s/vAvbTd-ZkNgh">cn_windows_8_x64_dvd_915407</a></p>
+        
+        <p>x64 windows8.1：<br>
+        <a href="https://www.123912.com/s/vAvbTd-0ENgh">cn_windows_8_professional_x64</a></p>
+        
+        <p>x86 windows8.1：<br>
+        <a href="https://www.123912.com/s/vAvbTd-RENgh">cn_windows_8_1_pro_vl_x86_dvd_2972620</a></p>
+        
+        <p>x64 windows10：<br>
+        <a href="https://www.123912.com/s/vAvbTd-ZENgh">Win10_22H2_Chinese_Simplified_x64v1</a></p>
+        
+        <p>x64 windows10 专业工作站版：<br>
+        <a href="https://www.123912.com/s/vAvbTd-2kNgh">Win10 Pro专业工作站版_x64_22H2</a></p>
+        
+        <p>x64 windows11：<br>
+        <a href="https://www.123912.com/s/vAvbTd-7ENgh">Win11_24H2_Chinese_Simplified_x64.iso</a></p>
+        
+        <div class="oem-section">
+            <h2>OEM系统</h2>
+            <p>天选OEM系统：<br>
+            <a href="https://www.123912.com/s/vAvbTd-eENgh">windows 10&windows11</a></p>
+        </div>
+
+        <!-- 新增Linux大标题及内容 -->
+        <div class="linux-section">
+            <h1 class="linux-title">Linux系统</h1>
+            <p>Ubuntu 24.04 LTS x64：<br>
+            <a href="https://www.123912.com/s/vAvbTd-LINux01">ubuntu-24.04.1-desktop-amd64.iso</a></p>
+            <p>CentOS Stream 9 x64：<br>
+            <a href="https://www.123912.com/s/vAvbTd-LINux02">CentOS-Stream-9-x86_64-20240507-boot.iso</a></p>
+            <p>Debian 12 x64：<br>
+            <a href="https://www.123912.com/s/vAvbTd-LINux03">debian-12.5.0-amd64-DVD-1.iso</a></p>
+        </div>
+    </div>
+</body>
+</html>
